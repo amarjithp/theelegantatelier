@@ -10,20 +10,20 @@ function Header() {
         {/* header__left */}
         <div>
             {/* logo */}
-            <h1 className='whitespace-nowrap text-black font-bold font-mono text-xl'>The Elegant Atelier</h1>
+            <h1 className='whitespace-nowrap text-black font-bold font-Poppins text-xl'>The Elegant Atelier</h1>
         </div>
 
         {/* header__mid */}
-        <div className='hidden sm:flex border-4 rounded-full'>
-            <input className='ml-2' type="text" placeholder='Catalog Atelier'/>
-            <div className='flex mr-2'>
+        <div className='hidden lg:flex justify-evenly border-4 rounded-full  w-2/3'>
+            <input className='ml-4 rounded-full outline-none' type="text" placeholder='Catalog Atelier'/>
+            
                 <h2><a href="">Gallery</a></h2>
                 <h2><a href="">Payment</a></h2>
                 <h2><a href="">Delivery</a></h2>
                 <h2><a href="">Support</a></h2>
                 <h2><a href="">Blog</a></h2>
                 <h2><a href="">Contacts</a></h2>
-            </div>
+            
         </div>
 
         <div className='flex align-middle'>

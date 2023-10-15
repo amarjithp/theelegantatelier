@@ -12,14 +12,15 @@ function Header() {
         {/* header__mid */}
         <div className='flex ml-20 p-1 rounded-full pr-10 items-center bg-slate-400 space-x-10'>
             <input className='text-black border-4 rounded-full solid pl-4' type="text" placeholder='Catalog Atelier'/>
-            <h2>Gallery</h2>
-            <h2>Payment</h2>
-            <h2>Delivery</h2>
-            <h2>Support</h2>
-            <h2>Blog</h2>
-            <h2>Contacts</h2>
+            <h2><a href="">Gallery</a></h2>
+            <h2><a href="">Payment</a></h2>
+            <h2><a href="">Delivery</a></h2>
+            <h2><a href="">Support</a></h2>
+            <h2><a href="">Blog</a></h2>
+            <h2><a href="">Contacts</a></h2>
         </div>
 
+        {/* header__right */}
         <div className='flex ml-28 '>
             <svg  className="w-10 h-10 p-2 pt-2 bg-slate-400 rounded-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                 <path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z" clip-rule="evenodd" />

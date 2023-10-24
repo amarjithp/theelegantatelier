@@ -46,7 +46,7 @@ function Header() {
     {isSearchVisible && <input className='lg:hidden border-headopt pl-9 border-4 rounded-full border-solid 
     w-full flex align-middle mt-2 ' 
     type="text" 
-    placeholder='Catalog test Atelier'/>}
+    placeholder='Catalog Atelier'/>}
     </div>  
     
     </>

@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <h1>body</h1>
+      <h1>yep autodeploy is working</h1>
     </>
   )
 }

@@ -41,11 +41,11 @@ function Header() {
     </div>
 
     <div className='mx-5'>
-    {isSearchVisible && <input className='border-4 rounded-full border-solid 
+    {isSearchVisible && <input className='lg:hidden pl-9 border-4 rounded-full border-solid 
     w-full flex align-middle mt-2 ' 
     type="text" 
     placeholder='Catalog Atelier'/>}
-    </div>
+    </div>  
     
     </>
 

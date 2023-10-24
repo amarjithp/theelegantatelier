@@ -13,6 +13,9 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        'headopt': 'rgb(241,241,241)',
+      },
       fontFamily: {
         Poppins: ['Poppins', 'sans-serif'],
       },

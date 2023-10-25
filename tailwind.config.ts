@@ -19,6 +19,9 @@ const config: Config = {
       fontFamily: {
         Poppins: ['Poppins', 'sans-serif'],
       },
+      height: {
+        '446': '28rem',
+      }
     },
   },
   plugins: [],

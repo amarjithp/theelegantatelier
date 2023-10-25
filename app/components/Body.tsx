@@ -1,11 +1,17 @@
 import React from 'react'
+import MainBody from './MainBody'
+import Sidebar from './Sidebar'
 
 function Body() {
   return (
     // body
-    <div className='flex m-5'>
-        <h1 className='w-10/12 bg-red-400'>main body</h1>
-        <h1 className='w-2/12 ml-5 bg-green-400'>sidebar</h1>
+    <div className='flex m-10'>
+        <div className="w-full lg:w-10/12 lg:mr-5">
+          <MainBody />
+        </div>
+        <div className="hidden lg:flex lg:w-2/12">
+          <Sidebar />
+        </div>
     </div>
     // sidebar
   )

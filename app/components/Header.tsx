@@ -6,11 +6,17 @@ function Header() {
   const [isSearchVisible, setIsSearchVisible] = useState(false);
   return (
     <>
-    <div className='flex justify-between mt-5 ml-5 mr-5'>
+    <div className='flex justify-between mt-5 ml-10 mr-10'>
         {/* header__left */}
         <div>
             {/* logo */}
-            <h1 className='whitespace-nowrap text-black font-bold font-Poppins text-xl'>The Elegant Atelier</h1>
+
+            {/* <h1 className='hidden lg:flex whitespace-nowrap 
+            text-black font-bold 
+            font-Poppins text-xl'>The Elegant Atelier</h1> */}
+            <h1 className='whitespace-nowrap 
+            text-black font-bold 
+            font-Poppins text-xl'>tela</h1>
         </div>
 
         {/* header__mid */}

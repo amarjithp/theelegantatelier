@@ -1,5 +1,6 @@
 import React from 'react'
 import DiamondIcon from '@mui/icons-material/Diamond';
+import Image from 'next/image'
 
 function MainBody() {
   return (
@@ -40,9 +41,13 @@ function MainBody() {
 
 
             <div className="mr-10">
-                <img className='object-fit w-full h-446 rounded-3xl h-fit'
-                src='https://assets.vogue.in/photos/5f61e43c211a71e971416d87/2:3/w_1920,c_limit/JSA_OTH_OTH_NDC%202020%20Wedding%20Scene%20with%20Ana_BTS_IMG_03.jpg'
-                alt="test" />
+                <Image
+                    className='object-fit w-full h-446 rounded-3xl h-fit'
+                    src="https://assets.vogue.in/photos/5f61e43c211a71e971416d87/2:3/w_1920,c_limit/JSA_OTH_OTH_NDC%202020%20Wedding%20Scene%20with%20Ana_BTS_IMG_03.jpg"
+                    alt="Highlights of Products"
+                    width={800}
+                    height={800}
+                />
             </div>
         </div>
     </div>

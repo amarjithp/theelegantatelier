@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
+    images : { 
+        domains : ['assets.vogue.in'] 
+    } 
 }
 module.exports = nextConfig

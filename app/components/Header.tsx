@@ -1,6 +1,5 @@
 'use client';
 import React, { useState } from 'react'
-import SegmentIcon from '@mui/icons-material/Segment';
 import { MdSegment } from 'react-icons/md'
 
 function Header() {
@@ -43,7 +42,6 @@ function Header() {
             </svg>
             
             <div onClick={() => console.log("clicked opt")}>
-                <SegmentIcon className='w-10 h-10 p-2 bg-headopt rounded-full'/>
                 <MdSegment className='w-10 h-10 p-2 bg-headopt rounded-full' />
             </div>
         </div>

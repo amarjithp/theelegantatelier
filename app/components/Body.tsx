@@ -5,8 +5,8 @@ import Sidebar from './Sidebar'
 function Body() {
   return (
     // body
-    <div className='flex m-10'>
-        <div className="w-full lg:w-10/12 lg:mr-5">
+    <div className='flex mt-10'>
+        <div className="w-full lg:w-10/12 lg:mr-14">
           <MainBody />
         </div>
         <div className="hidden lg:flex lg:w-2/12">

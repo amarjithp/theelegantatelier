@@ -1,7 +1,8 @@
 import React from 'react'
 import DiamondIcon from '@mui/icons-material/Diamond';
 import Image from 'next/image'
-import { MdSegment } from 'react-icons/md'
+import { MdDiamond } from 'react-icons/md'
+import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai'
 
 function MainBody() {
   return (
@@ -28,10 +29,10 @@ function MainBody() {
                     </svg>
 
                     
-                    <DiamondIcon className='w-10 h-10
+                    <MdDiamond className='w-10 h-10
                     bg-green-400 
-                    rounded-full p-1 justify-center items-center'/>
-            
+                    rounded-full p-1 justify-center items-center'
+                    />
                     
 
                     <div className='w-32 ml-4 rounded-full flex justify-center items-center bg-yellow-400'>
@@ -53,28 +54,17 @@ function MainBody() {
                     <div className='flex'>
                         <p className='mt-4 ml-0'>Ana de Armas</p>
 
-                        <svg 
-                            className='w-8 h-8 mt-3 ml-48 p-1 bg-headopt rounded-full'
-                            xmlns="http://www.w3.org/2000/svg" 
-                            fill="none" 
-                            viewBox="0 0 24 24" 
-                            stroke-width="1.5" 
-                            stroke="currentColor"
-                        >
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-                        </svg>
+                        <AiOutlineLeft className='w-8 h-8 
+                        mt-3 ml-40 p-1 
+                        bg-headopt 
+                        rounded-full'
+                        />
 
-
-                        <svg 
-                            className='w-8 h-8 mt-3 ml-4 p-1 bg-headopt rounded-full'
-                            xmlns="http://www.w3.org/2000/svg" 
-                            fill="none" 
-                            viewBox="0 0 24 24" 
-                            stroke-width="1.5" 
-                            stroke="currentColor"
-                        >
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                        </svg>
+                        <AiOutlineRight className='w-8 h-8 
+                        mt-3 ml-4 p-1 
+                        bg-headopt 
+                        rounded-full'
+                        />
                     </div>
 
                 </div>

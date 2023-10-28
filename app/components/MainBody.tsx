@@ -55,7 +55,7 @@ function MainBody() {
                         <p className='mt-4 ml-0'>Ana de Armas</p>
 
                         <AiOutlineLeft className='w-8 h-8 
-                        mt-3 ml-40 p-1 
+                        mt-3 ml-36 p-1 
                         bg-headopt 
                         rounded-full'
                         />

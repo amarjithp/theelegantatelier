@@ -20,7 +20,7 @@ function Header() {
             font-Poppins text-2xl pt-1 lg:text-xl'>tela</h1>
         </div>
 
-        <div className='ml-5 mr-2 mt-1'>
+        <div className='w-full lg:w-min ml-5 mr-2 mt-1'>
             {isSearchVisible && <input className='lg:hidden border-headopt pl-2 
             border-4 rounded-full border-solid 
             w-full flex items-center' 

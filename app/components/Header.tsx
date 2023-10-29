@@ -11,13 +11,22 @@ function Header() {
         <div>
             {/* logo */}
 
-            {/* <h1 className='hidden lg:flex whitespace-nowrap 
+            {/* <h1 className=' lg:hidden whitespace-nowrap 
             text-black font-bold 
             font-Poppins text-xl'>The Elegant Atelier</h1> */}
+
             <h1 className='whitespace-nowrap 
             text-black font-bold 
-            font-Poppins text-xl'>tela</h1>
+            font-Poppins text-2xl pt-1 lg:text-xl'>tela</h1>
         </div>
+
+        <div className='ml-5 mr-2 mt-1'>
+            {isSearchVisible && <input className='lg:hidden border-headopt pl-2 
+            border-4 rounded-full border-solid 
+            w-full flex items-center' 
+            type="text" 
+            placeholder='Catalog Atelier'/>}
+    </div>    
 
         {/* header__mid */}
         <div className='hidden lg:flex  border-4 border-headopt rounded-full bg-headopt w-2/3'>
@@ -48,12 +57,12 @@ function Header() {
         
     </div>
 
-    <div className='mx-5'>
+    {/* <div className='mx-5'>
     {isSearchVisible && <input className='lg:hidden border-headopt pl-9 border-4 rounded-full border-solid 
     w-full flex align-middle mt-2 ' 
     type="text" 
     placeholder='Catalog Atelier'/>}
-    </div>  
+    </div>   */}
     
     </>
 

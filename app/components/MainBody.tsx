@@ -9,10 +9,11 @@ function MainBody() {
     <div className=''>
         <h1 className='whitespace-nowrap 
         text-black font-bold 
-        font-Poppins text-8xl'>The Elegant Atelier</h1>
+        font-Poppins text-4xl lg:text-8xl'>The Elegant Atelier</h1>
+        <h2 className='font-Poppins font-semibold mt-2 lg:hidden'>-&gt; A place where you&apos;ll find fine art.</h2>
 
-        <div className="grid grid-cols-2 mt-8">
-            <div className="bg-white">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:mt-8">
+            <div className="bg-white mt-5 lg:mt-0">
                 <h2 className='whitespace-nowrap 
                 text-black 
                 font-Poppins 
@@ -41,10 +42,10 @@ function MainBody() {
 
                 </div>
 
-                <div className='mt-4 h-60 '>
+                <div className='mt-4 lg:h-60 '>
                     <h2 className='font-Poppins font-bold text-lg'>Discover</h2>
                     <Image
-                        className='w-8/12 h-2/3'
+                        className='w-full h-fit lg:w-8/12 lg:h-2/3'
                         src="https://pyxis.nymag.com/v1/imgs/0e8/abc/4c1808fa323cce7b95569da349dff28654-ana-de-armas.1x.rsocial.w1200.jpg"
                         alt='Discover'
                         width={300}
@@ -73,9 +74,9 @@ function MainBody() {
 
 
 
-            <div className="mr-10">
+            <div className="mt-5 order-first lg:order-none lg:mr-10">
                 <Image
-                    className='object-fit w-full h-446 rounded-3xl'
+                    className='object-fit w-full h-fit lg:h-446 rounded-3xl'
                     src="https://assets.vogue.in/photos/5f61e43c211a71e971416d87/2:3/w_1920,c_limit/JSA_OTH_OTH_NDC%202020%20Wedding%20Scene%20with%20Ana_BTS_IMG_03.jpg"
                     alt="Highlights of Products"
                     width={800}

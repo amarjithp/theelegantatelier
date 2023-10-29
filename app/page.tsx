@@ -5,7 +5,7 @@ import Header from "./components/Header";
 export default function Home() {
   return (
     <>
-      <div className="m-14 mt-8">
+      <div className="m-5 lg:m-14 lg:mt-8">
         <Header />
         <Body />
       </div>
